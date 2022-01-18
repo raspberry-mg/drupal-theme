@@ -1,0 +1,10 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+       assets/css/style.css: {}
+       assets/css/bootstrap.css: {}
+       assets/css/bootstrap-grid.css: {}
+
+  js:
+    assets/js/script.js: {}
