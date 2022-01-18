@@ -1,0 +1,173 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-custom {
+    background-color: #101012ff;
+}
+
+.nav-link {
+    margin-right: 2em;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: 'Abel', sans-serif;
+    font-size: medium;
+}
+
+.logo {
+    margin-left: 2em;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.main-screen {
+    position: relative;
+    top: -73em;
+    z-index: -1;
+    max-height: 900px;
+}
+
+.title {
+    z-index: 3;
+    margin-top: .5em;
+    color: white;
+    opacity: .4;
+}
+
+.navbar {
+    z-index: 5;
+}
+
+.content {
+    margin-top: -5em;
+}
+
+.tile__content {
+    opacity: 0;
+}
+
+#button {
+    z-index: 15;
+    margin-top: 33em;
+}
+
+
+.title-section {
+    position: relative;
+    font-family: 'Yeseva One', cursive;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 3em;
+    z-index: 15;
+}
+
+.hr-title {
+    position: relative;
+    text-align: center;
+    margin: -62em 48% 2em auto;
+    max-width: 7em;
+    border: 0;
+    border-top: 6px solid #101113;
+    opacity: 0.9;
+    z-index: 15;
+}
+
+.review {
+    z-index: 25;
+}
+
+.review img {
+    max-height: 22.5em;
+}
+
+.movie-section {
+    font-family: 'Almarai', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 2.1em;
+    margin-top: 1em;
+}
+
+.desc {
+    font-family: 'Almarai', sans-serif;
+    color: black;
+    font-size: 1.6em;
+}
+
+.row a {
+    text-decoration: none;
+}
+
+
+.checked {
+    color: #FFB91A;
+}
+
+.non-checked{
+    color: #C4C4C4;
+}
+
+.subscribe-banner {
+    margin-top: 6em;
+    margin-bottom: 5em;
+    background-color: #101113;
+    height: 145px;
+}
+
+
+
+.subscribe-btn {
+    position: relative;
+    font-family: 'Almarai', sans-serif;
+    font-size: 1.5em;
+    background-color: #1896C0;
+    color: white;
+    height: 47px;
+    width: 152px;
+    margin-left: 1em;
+    z-index: 15;
+}
+
+.subscribe-title {
+    color: white;
+    font-family: 'Yeseva One', cursive;
+    font-size: 2.5em;
+}
+
+.input-group-lg {
+    position: relative;
+    font-family: 'Almarai', sans-serif;
+    font-size: 1.5em;
+    width: 28.1em;
+    height: 2.9em;
+    z-index: 15;
+}
+footer {
+    position: relative;
+    z-index: 15;
+}
+.logo-black {
+    background-color: #101113;
+}
+
+.footer-title {
+    font-family: 'Yeseva One', cursive;
+    font-size: 2em;
+}
+
+.footer-text {
+    font-family: 'Almarai', sans-serif;
+    font-size: 1.8em;
+    color: #1896C0;
+}
+
+.copywrite-text {
+    font-family: 'Almarai', sans-serif;
+    font-size: 1.5em;
+    color: #1896C0;
+    margin-top: 3em;
+}
