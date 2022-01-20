@@ -1,10 +1,13 @@
 global-styling:
-  version: 1.x
+  version: 2.x
   css:
     theme:
        assets/css/style.css: {}
        assets/css/bootstrap.css: {}
-       assets/css/bootstrap-grid.css: {}
+       assets/jquery-effect/dist/app.css: {}
 
   js:
+    assets/js/bootstrap.js: {}
     assets/js/script.js: {}
+    assets/jquery-effect/dist/app.js: {}
+
