@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * Contains install and update functions for afilm theme.
+ */
+
+/**
+ * Adding Website container type configuration to configuration.
+ */
+function afilm_update_8100() {
+  \Drupal::configFactory()
+    ->getEditable('afilm.settings')
+    ->set('b5_top_container_config', '')
+    ->save(TRUE);
+}
+
+/**
+ * Adding CKEditor configurable CSS styling.
+ */
+function afilm_update_8101() {
+  \Drupal::configFactory()
+    ->getEditable('afilm.settings')
+    ->set('b5_ckeditor_enable', TRUE)
+    ->save(TRUE);
+}
